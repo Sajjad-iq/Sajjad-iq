@@ -7,17 +7,14 @@
 ### `> whoami`
 
 I build **complete systems** — not just pages.
-POS terminals, ERP platforms, financial engines, cloud infrastructure.
+ERP platforms, medical apps, real estate, cloud infrastructure.
 
 From the database schema to the pixel on screen, I own the full stack.
-
-Currently shipping **Retail Matrix**: an enterprise POS/ERP system
-handling real money, real inventory, and real businesses.
 
 ```
 Location : Iraq
 Stack    : React + .NET + Electron
-Focus    : Enterprise & SaaS Systems
+Focus    : Enterprise, Medical & SaaS
 ```
 
 </td>
@@ -41,19 +38,19 @@ Focus    : Enterprise & SaaS Systems
 <td align="center" width="96"><img src="https://skillicons.dev/icons?i=react" width="40" /><br /><sub><b>React</b></sub></td>
 <td align="center" width="96"><img src="https://skillicons.dev/icons?i=ts" width="40" /><br /><sub><b>TypeScript</b></sub></td>
 <td align="center" width="96"><img src="https://skillicons.dev/icons?i=nextjs" width="40" /><br /><sub><b>Next.js</b></sub></td>
-<td align="center" width="96"><img src="https://skillicons.dev/icons?i=angular" width="40" /><br /><sub><b>Angular</b></sub></td>
 <td align="center" width="96"><img src="https://skillicons.dev/icons?i=electron" width="40" /><br /><sub><b>Electron</b></sub></td>
+<td align="center" width="96"><img src="https://skillicons.dev/icons?i=js" width="40" /><br /><sub><b>JavaScript</b></sub></td>
 <td align="center" width="96"><img src="https://skillicons.dev/icons?i=tailwind" width="40" /><br /><sub><b>Tailwind</b></sub></td>
 <td align="center" width="96"><img src="https://skillicons.dev/icons?i=materialui" width="40" /><br /><sub><b>MUI</b></sub></td>
 </tr>
 <tr>
 <td align="center" width="96"><img src="https://skillicons.dev/icons?i=dotnet" width="40" /><br /><sub><b>.NET</b></sub></td>
 <td align="center" width="96"><img src="https://skillicons.dev/icons?i=cs" width="40" /><br /><sub><b>C#</b></sub></td>
-<td align="center" width="96"><img src="https://skillicons.dev/icons?i=java" width="40" /><br /><sub><b>Java</b></sub></td>
-<td align="center" width="96"><img src="https://skillicons.dev/icons?i=spring" width="40" /><br /><sub><b>Spring Boot</b></sub></td>
 <td align="center" width="96"><img src="https://skillicons.dev/icons?i=nodejs" width="40" /><br /><sub><b>Node.js</b></sub></td>
 <td align="center" width="96"><img src="https://skillicons.dev/icons?i=express" width="40" /><br /><sub><b>Express</b></sub></td>
-<td align="center" width="96"><img src="https://skillicons.dev/icons?i=js" width="40" /><br /><sub><b>JavaScript</b></sub></td>
+<td align="center" width="96"><img src="https://skillicons.dev/icons?i=sass" width="40" /><br /><sub><b>Sass</b></sub></td>
+<td align="center" width="96"><img src="https://skillicons.dev/icons?i=html" width="40" /><br /><sub><b>HTML5</b></sub></td>
+<td align="center" width="96"><img src="https://skillicons.dev/icons?i=css" width="40" /><br /><sub><b>CSS3</b></sub></td>
 </tr>
 <tr>
 <td align="center" width="96"><img src="https://skillicons.dev/icons?i=postgres" width="40" /><br /><sub><b>PostgreSQL</b></sub></td>
@@ -69,9 +66,8 @@ Focus    : Enterprise & SaaS Systems
 <td align="center" width="96"><img src="https://skillicons.dev/icons?i=firebase" width="40" /><br /><sub><b>Firebase</b></sub></td>
 <td align="center" width="96"><img src="https://skillicons.dev/icons?i=figma" width="40" /><br /><sub><b>Figma</b></sub></td>
 <td align="center" width="96"><img src="https://skillicons.dev/icons?i=postman" width="40" /><br /><sub><b>Postman</b></sub></td>
-<td align="center" width="96"><img src="https://skillicons.dev/icons?i=sass" width="40" /><br /><sub><b>Sass</b></sub></td>
-<td align="center" width="96"><img src="https://skillicons.dev/icons?i=html" width="40" /><br /><sub><b>HTML5</b></sub></td>
-<td align="center" width="96"><img src="https://skillicons.dev/icons?i=css" width="40" /><br /><sub><b>CSS3</b></sub></td>
+<td align="center" width="96">&nbsp;</td>
+<td align="center" width="96">&nbsp;</td>
 </tr>
 </table>
 
@@ -85,19 +81,31 @@ Focus    : Enterprise & SaaS Systems
 <br />
 
 ```
-Retail Matrix (ERP/POS)
-├── 🖥️  Desktop App ─────── Electron + React + TypeScript
-├── ☁️  Cloud Backend ────── .NET / C# REST API
-├── 🛒  Point of Sale ────── Multi-terminal, barcode scanning, shift system, cash drawer
-├── 💰  Sales ────────────── Complete sale, debt sale (آجل), installment plans
-├── 📦  Inventory ────────── Multi-warehouse, stock movements, batch tracking, stocktake
-├── 💳  Installments ─────── Contract generation, partial payments, overdue tracking
-├── 📊  Accounting ───────── Double-entry, balance sheets, income statements, ledger
-├── 🧾  Printing ─────────── Thermal POS receipts + A4 contract printing
-├── 💱  Multi-Currency ───── Exchange rates, base currency conversion
-├── 🏢  Multi-Tenant ─────── Org management, subscription plans, feature toggles
-├── 🔐  Auth & RBAC ──────── Permission guards, role-based access per route
-└── 📱  WhatsApp ─────────── Payment reminders, customer notifications
+Retail Matrix ─ ERP / POS System
+├── 🖥️  Electron + React + TypeScript desktop app
+├── ☁️  .NET / C# cloud backend
+├── 🛒  Multi-terminal POS with barcode scanning & shift system
+├── 💰  Sales: cash, debt (آجل), installment plans
+├── 📦  Multi-warehouse inventory, batch tracking, stocktake
+├── 📊  Double-entry accounting, balance sheets, ledger
+├── 🧾  Thermal POS receipts + A4 contract printing
+├── 💱  Multi-currency with exchange rates
+├── 🏢  Multi-tenant SaaS with subscription feature toggles
+└── 🔐  Role-based access control & permission guards
+```
+
+```
+Dahmani ─ Medical App
+├── 🏥  Patient management & medical records
+├── 📋  Appointment scheduling
+└── 💊  Healthcare workflow automation
+```
+
+```
+Other Projects
+├── 🏠  Real Estate ─────── Property listings, client management
+├── 🏢  Custom ERPs ─────── Tailored enterprise solutions
+└── 🌐  Web Apps ────────── Full-stack SaaS platforms
 ```
 
 </details>
@@ -120,10 +128,6 @@ Retail Matrix (ERP/POS)
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sajjad-kademm-a68294209/)
-&nbsp;&nbsp;
-[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://instagram.com/@sajja3kademm)
-&nbsp;&nbsp;
-[![Portfolio](https://img.shields.io/badge/-Portfolio-000?style=flat&logo=googlechrome&logoColor=white)](https://sajjadkadhemm.onrender.com/)
 &nbsp;&nbsp;
 [![Email](https://img.shields.io/badge/-sajja3kademm@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:sajja3kademm@gmail.com)
 
